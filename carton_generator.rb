@@ -72,3 +72,22 @@ HTML
    end
 end
 
+  html = ''
+  html << '<table cellpadding="10" border="1">'
+  
+  (0..9).each do |x|
+    html << '<tr>'
+    (0..9).each do |y|
+      index = (x.to_s + y.to_s).to_i
+      string = "<td><img src=\"../#{files[index]}\" width=\"90\" height=\"120\"><div align='center'><font size=\"2\" face=\"verdana\" color=\"green\">#{files[index].split('img/')[1].split('.')[0]}</font></div></td>" 
+      html << string
+    end
+      
+    html << '</tr>'
+  end  
+  html << '</table>'
+ 
+  File.open("fichas/all.html", 'w') do |f|
+    f.write(html)
+  end
+
