@@ -45,7 +45,7 @@ files = Dir["img/*"]
   <tr>
     <td><img src="../#{files[images_to_use_indexes[10]]}" width="90" height="120"><div align='center'><font size="2" face="verdana" color="green">#{files[images_to_use_indexes[10]].split('img/')[1].split('.')[0]}</font></div></td>
     <td><img src="../#{files[images_to_use_indexes[11]]}" width="90" height="120"><div align='center'><font size="2" face="verdana" color="green">#{files[images_to_use_indexes[11]].split('img/')[1].split('.')[0]}</font></div></td>
-    <td><img src="../img/LOGO.png" width="90" height="120"><div align='center'><font size="2" face="verdana" color="green">Free Space</font></div></td>
+    <td><img src="../statics/LOGO.png" width="90" height="120"><div align='center'><font size="2" face="verdana" color="green">Free Space</font></div></td>
     <td><img src="../#{files[images_to_use_indexes[12]]}" width="90" height="120"><div align='center'><font size="2" face="verdana" color="green">#{files[images_to_use_indexes[12]].split('img/')[1].split('.')[0]}</font></div></td>
     <td><img src="../#{files[images_to_use_indexes[13]]}" width="90" height="120"><div align='center'><font size="2" face="verdana" color="green">#{files[images_to_use_indexes[13]].split('img/')[1].split('.')[0]}</font></div></td>
   </tr>
